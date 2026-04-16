@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+frontend/build/
+
+# Uploads
+uploads/
+backend/uploads/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+
+# Blockchain
+blockchain/artifacts/
+blockchain/cache/
+blockchain/node_modules/
